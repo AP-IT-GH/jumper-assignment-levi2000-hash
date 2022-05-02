@@ -2,7 +2,8 @@
 ## Introduction
 I created and ai that jumps over obstacles.
 There are 2 types of obstacles, the good one(green) and the bad one(red).
-The agent needs to avoid the red one and hit the green one
+The agent needs to avoid the red one and hit the green one.
+I also gave the jumper agent some rays (eyes) to give extra help.
 ## JumperAgent
 
 The variables of the agent, htey speak for themselves
