@@ -4,6 +4,10 @@ I created and ai that jumps over obstacles.
 There are 2 types of obstacles, the good one(green) and the bad one(red).
 The agent needs to avoid the red one and hit the green one.
 I also gave the jumper agent some rays (eyes) to give extra help.
+
+If you take a look at the configuration file you can see at the bottom that I trained the agent for 1000000 steps. 
+The agent still hits the bad obstacle sometimes.
+This happens because the agent first does a small jump and then attempts the big jump and hits the obstacle or because the agent is still in the air and the second obstacle is already on its way moving at a higher speed.
 ## JumperAgent
 
 The variables of the agent, htey speak for themselves
